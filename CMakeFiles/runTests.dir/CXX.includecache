@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/dmitrii/eclipse-workspace/sabotage/src/funcSab.c
+funcSab.h
+/home/dmitrii/eclipse-workspace/sabotage/src/funcSab.h
+
+/home/dmitrii/eclipse-workspace/sabotage/src/funcSab.h
+stdio.h
+-
+stdlib.h
+-
+malloc.h
+-
+stdarg.h
+-
+string.h
+-
+
+/home/dmitrii/eclipse-workspace/sabotage/tests.cpp
+/home/dmitrii/eclipse-workspace/sabotage/src/funcSab.c
+-
+gtest/gtest.h
+-
+
